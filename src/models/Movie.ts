@@ -1,30 +1,13 @@
 export default class Movie {
-  // Свойства класса
-  title: string;
-  year: number;
-  country: string;
-  slogan: string;
-  genres: string[];
-  rating: number;
-  duration: number;
-
-  // Конструктор для инициализации свойств
   constructor(
-    title: string,
-    year: number,
-    country: string,
-    slogan: string,
-    genres: string[],
-    rating: number,
-    duration: number
+    public title: string,
+    public year: number,
+    public country: string,
+    public slogan: string,
+    public genres: string[],
+    public rating: number,
+    public duration: number
   ) {
-    this.title = title;
-    this.year = year;
-    this.country = country;
-    this.slogan = slogan;
-    this.genres = genres;
-    this.rating = rating;
-    this.duration = duration;
   }
 
   // Метод для отображения информации о фильме
